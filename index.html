@@ -13,8 +13,11 @@
   <link rel='stylesheet' href='css/slider.css'>
   <link rel='stylesheet' href='css/footer.css'>
   <link rel='stylesheet' href='css/form.css'>
+  <link rel='stylesheet' href='css/product.css'>
+  <link rel='stylesheet' href='css/about_us.css'>
 
   <script src="js/form.js"></script>
+  <script src="js/product.js"></script>
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans" />
 </head>
 
@@ -40,7 +43,7 @@
       <ul>
         <li><a class="menu_ref" href="index.html">Головна</a><span class="menu_ref"> | </span>
         </li>
-        <li><a class="menu_ref" href="products.html">Продукти</a> <span class="menu_ref"> | </span>
+        <li><a class="menu_ref" href="index.html">Продукти</a> <span class="menu_ref"> | </span>
         </li>
         <li><a class="menu_ref" href="aboutUs.html">Про нас</a> <span class="menu_ref"> | </span>
         </li>
@@ -64,6 +67,7 @@
       <div class="main__sub-menu">
         <div class="main__menu-body">
           <a class="main__menu-link" href="index.html">Головна</a><span class="main__menu-link"> / </span>
+          <a class="main__menu-link" href="index.html">Продукти</a>
         </div>
       </div>
       <div class="main__central-content">
@@ -90,43 +94,44 @@
             </ul>
           </div>
         </div>
+        
         <div class="main__content-wrapper">
           <div class="main__content">
-            <div class="card">
+            <div class="card" onclick="onProductClick('Т-84-120 «Ятаган»', '2,800,000$', 'images/T-84.jpg')">
               <div class="card_img"><img alt="T-84-120 «Ятаган»" src="images/T-84.jpg">
               </div>
               <h5 class="card_name">T-84-120 «Ятаган»</h5>
               <h2 class="item_price">2,800,000$</h2>
             </div>
-            <div class="card">
+            <div class="card" onclick="onProductClick('Т-84 «Оплот»', '4,000,000$', 'images/Т-80УД.jpg')">
               <div class="card_img"><img alt="Т-84 «Оплот»" src="images/Т-80УД.jpg">
               </div>
               <h5 class="card_name">Т-84 «Оплот»</h5>
               <h2 class="item_price">4,000,000$</h2>
             </div>
-            <div class="card">
+            <div class="card" onclick="onProductClick('БТР-4', '1,100,000$ — 1,600,000$', 'images/БТР-4.jpg')">
               <div class="card_img"><img alt="БТР-4 «Буцефал»" src="images/БТР-4.jpg">
               </div>
               <h5 class="card_name">БТР-4 «Буцефал»</h5>
               <h2 class="item_price">	1,100,000$ — 1,600,000$</h2>
             </div>
-            <div class="card">
+            <div class="card" onclick="onProductClick('Дозор-Б', '225,420$', 'images/Dozor-B.jpg')">
               <div class="card_img"><img alt="ТБКМ «Дозор-Б»" src="images/Dozor-B.jpg">
               </div>
               <h5 class="card_name">ТБКМ «Дозор-Б»</h5>
               <h2 class="item_price">225,420$</h2>
             </div>
-            <div class="card">
+            <div class="card" onclick="onProductClick('Т-64БМ «Булат»', '2,000,000$', 'images/Т64.jpg')">
               <div class="card_img"><img alt="Т-64БМ «Була́т»" src="images/Т64.jpg">
               </div>
               <h5 class="card_name">Т-64БМ «Була́т»</h5>
               <h2 class="item_price">2,000,000$</h2>
             </div>
-            <div class="card">
+            <div class="card" onclick="onProductClick('БАТ-2', '300,000$', 'images/БАТ-2.jpg')">
               <div class="card_img"><img alt="БАТ-2" src="images/БАТ-2.jpg">
               </div>
               <h5 class="card_name">БАТ-2</h5>
-              <h2 class="item_price">700,000$</h2>
+              <h2 class="item_price">300,000$</h2>
             </div>
           </div>
           <div class="main__pagination-holder">
@@ -138,6 +143,7 @@
             </div>
           </div>
         </div>
+
       </div>
       <div class="main__lower">
         <div>
@@ -156,13 +162,13 @@
     <div class="footer_wrapper">
       <div class="footer_div">
         <div class="footer_left">
-          <p>© 2023 ХКБМ </p>
+          <p>© 2223 ХКБМ </p>
         </div>
         <div>
           <ul>
             <li><a class="footer_ref" href="index.html">Головна</a></li>
-            <li><a class="footer_ref" href="products.html">Продукти</a></li>
-            <li><a class="footer_ref" href="reviews.html">Про нас</a></li>
+            <li><a class="footer_ref" href="index.html">Продукти</a></li>
+            <li><a class="footer_ref" href="aboutUs.html">Про нас</a></li>
             <li><a class="footer_ref" href="contacts.html">Контакти</a></li>
           </ul>
         </div>

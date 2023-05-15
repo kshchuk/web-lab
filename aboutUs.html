@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Про нас</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='css/base.css'>
+    <link rel='stylesheet' href='css/header.css'>
+    <link rel='stylesheet' href='css/main.css'>
+    <link rel='stylesheet' href='css/menu.css'>
+    <link rel='stylesheet' href='css/slider.css'>
+    <link rel='stylesheet' href='css/footer.css'>
+    <link rel='stylesheet' href='css/form.css'>
+    <link rel='stylesheet' href='css/product.css'>
+    <link rel='stylesheet' href='css/about_us.css'>
+
+    <script src="js/form.js"></script>
+    <script src="js/product.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans" />
+</head>
+
+<body>
+    <header>
+        <div class="header_block">
+            <div class="left_block">
+                <img src="images/ХКБМ.jpg" alt="Харківське конструкторське бюро машинобудування" class="logo">
+                <div class="logo_text">
+                    <h2>Магазин побутової техніки</h2>
+                    <h4>Танки, ББМ та інша військова техніка</h4>
+                </div>
+            </div>
+            <div class="right_block">
+                <p class="contacts_text">+38(050)-123-45-67</p>
+                <p class="contacts_text">+38(050)-765-43-21</p>
+                <a class="contacts_ref" onclick="openForm()">Зворотний зв'язок*</a>
+            </div>
+        </div>
+    </header>
+    <div class="menu">
+        <div class="menu_body">
+            <ul>
+                <li><a class="menu_ref" href="index.html">Головна</a><span class="menu_ref"> | </span>
+                </li>
+                <li><a class="menu_ref" href="index.html">Продукти</a> <span class="menu_ref"> | </span>
+                </li>
+                <li><a class="menu_ref" href="aboutUs.html">Про нас</a> <span class="menu_ref"> | </span>
+                </li>
+                <li><a class="menu_ref" href="contacts.html">Контакти</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="slider">
+        <img class="slide" src="images/T-84.jpg" alt="Slide 1">
+        <img class="slide" src="images/Verba.jpg" alt="Slide 2">
+        <img class="slide" src="images/БТР-4.jpg" alt="Slide 3">
+        <img class="slide" src="images/Т-80УД.jpg" alt="Slide 4">
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <script src="js/slider.js"></script>
+
+    <main class="main">
+        <div class="main__sub-menu">
+            <div class="main__menu-body">
+                <a class="main__menu-link" href="index.html">Головна</a><span class="main__menu-link"> / </span>
+                <a class="main__menu-link" href="aboutUs.html">Про нас</a>
+            </div>
+        </div>
+        <div class="about-us">
+            <h2>Про нас</h2>
+            <div class="about-us__content">
+                <div class="about-us__image">
+                    <img src="images/hkbm.jpg" alt="Історія ХКБМ">
+                </div>
+                <div class="about-us__text">
+                    <p><b>Харківське конструкторське бюро з машинобудування імені О.О. Морозова</b> (ДП ХКБМ, до 1951
+                        ОКБ-520, до 1997 КБ-60, до 1999 ОКБ імені Морозова) — підприємство, яке розробляє бронетанкову
+                        техніку та входить до складу державного концерну «Укроборонпром».
+                        Раніше ДП ХКБМ відігравало ключову роль у створенні броньованих гусінних машин Радянського
+                        Союзу.</p>
+                    <p>Діяльність КПП ХКБМ на сучасному етапі характеризується трьома основними факторами:</p>
+                    <ul>
+                        <li>Пропозиція замовникам широкої номенклатури броньованих машин та інших виробів військового й
+                            загальногромадянського призначення, а також програм модернізації застарілих машин;</li>
+                        <li>Розробка устаткування згідно з конкретними вимогами замовників;</li>
+                        <li>Надання довгострокового сприяння щодо забезпечення нормальної експлуатації виробів кінцевими
+                            користувачами.</li>
+                    </ul>
+                </div>
+            </div>
+            <h2>Історія</h2>
+            <div class="about-us__text">
+                <p>24 квітня 2018 року прес-служба держконцерну «Укроборонпром» на офіційному сайті оприлюднила
+                    велику кількість зображень бойової машини піхоти, яка розробляється Харківським конструкторським
+                    бюро з машинобудування. Виготовлення дослідного зразка та проведення комплексу випробувань БМП-У
+                    очікується наприкінці 2018 — початку 2019 років.</p>
+            </div>
+            <h2>Основні сфери діяльності і номенклатура виробів</h2>
+            <div class="about-us__text">
+                <p>ДП ХКБМ спеціалізується, головним чином, на розробці і виробництві бронетанкової техніки.
+                    Компетенція ДП ХКБМ в даній сфері є всеосяжною і охоплює весь процес створення того чи іншого
+                    зразка, від першої лінії на кресленні і до подальшого вдосконалення вже експлуатованої машини.
+                </p>
+                <p>Номенклатура розроблених ДП ХКБМ гусеничних машин включає основні бойові танки «Ятаган», «Оплот»,
+                    Т-80УД, важку бойову машину піхоти БТМП-84 і броньовану ремонтно-евакуаційну машину БРЕМ-Оплот.
+                </p>
+                <p>Колісні машини, які розроблені ДП ХКБМ — бронетранспортери БТР-3, БТР-4, Дозор-Б.</p>
+                <p>ДП ХКБМ також спеціалізується на розробці варіантів модернізації застарілих бойових танків, у
+                    тому числі Т-72, Т-64, Т-59, Т-55 і Т-54.</p>
+                <p>Крім того, ДП ХКБМ займається конструюванням і виготовленням інженерної техніки, а також
+                    високотехнологічних засобів навчання для бойових броньованих машин. Зокрема були розроблені та
+                    виготовлені динамічні тренажери танків Т-80УД, БМП-2.</p>
+                <p>На додаток до вищевказаних основних сфер діяльності, ДП ХКБМ також розробляє різну цивільну
+                    продукцію. Ця продукція включає обладнання для металургійної промислості, обладнання для роботи з
+                    радіоактивними відходами, спецтехніку на важкій гусеничній базі та інше.</p>
+                <p>В грудні 2015 року було продемонстровано нову розробку конструкторського бюро ім. О.О. Морозова -
+                    реактивну систему залпового вогню "Верба".</p>
+                <p>Станом на 2018 рік тривали роботи над створенням нової бойової машини піхоти, БМП-У, для заміни
+                    наявного парку БМП-1 та БМП-2. Також вивчалась можливість створення принципово нового основного
+                    бойового танку з екіпажем у дві людини.</p>
+                <p>Підприємством було налагоджено власне виробництво корпусів для БТР-4 і у 2019 році перший БТР-4 з
+                    корпусом виробництва "ХКБМ" успішно пройшов комплексні випробування, що дозволило перейти до
+                    серійного виготовлення чергової партії БТР-4 із використанням власних корпусів.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_wrapper">
+            <div class="footer_div">
+                <div class="footer_left">
+                    <p>© 2223 ХКБМ </p>
+                </div>
+                <div>
+                    <ul>
+                        <li><a class="footer_ref" href="index.html">Головна</a></li>
+                        <li><a class="footer_ref" href="index.html">Продукти</a></li>
+                        <li><a class="footer_ref" href="aboutUs.html">Про нас</a></li>
+                        <li><a class="footer_ref" href="contacts.html">Контакти</a></li>
+                    </ul>
+                </div>
+                <div class="footer_right">
+                    <p>+38(057)-757-87-96</p>
+                    <p>yog@morozov.com.ua</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="form-popup" id="popup_form">
+        <div class="form-wrapper">
+            <button type="button" class="close-button" onclick="closeForm()">x</button>
+            <form>
+                <h2>Зворотний зв'язок</h2>
+                <label for="name">Ваше ім'я *</label>
+                <input type="text" placeholder="" name="name" required>
+                <label for="phone">Телефон *</label>
+                <input type="tel" placeholder="" name="phone" required>
+                <label for="email">Email *</label>
+                <input type="email" placeholder="" name="email" required>
+                <label for="message">Повідомлення</label>
+                <textarea name="message" rows="8" cols="30" placeholder=""></textarea>
+                <button type="submit" class="submit-button">Надіслати</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

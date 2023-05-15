@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "PT Sans";
+    src: url("https://fonts.google.com/specimen/PT+Sans");
+}
+
 footer {
     background-color: rgb(32, 30, 20);
   }
